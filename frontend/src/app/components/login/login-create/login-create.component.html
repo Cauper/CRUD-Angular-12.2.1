@@ -1,0 +1,34 @@
+<div class="center-content">
+  <mat-card class="card">
+    <mat-card-header>
+      <mat-card-title>Cadastro de usuários</mat-card-title>
+      <mat-card-subtitle>Cadastro de usuário para o Sistema de Livros</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <mat-form-field class="full-width">
+        <mat-label>Nome do usuário</mat-label>
+        <input type="text" matInput placeholder="Nome" [(ngModel)]="usuario.nome">
+        <mat-icon matSuffix>person_ouline</mat-icon>
+      </mat-form-field>
+      <mat-form-field class="full-width">
+        <mat-label>Login</mat-label>
+        <input type="text" matInput placeholder="Login" [(ngModel)]="usuario.usuario">
+        <mat-icon matSuffix>person</mat-icon>
+      </mat-form-field>
+      <mat-form-field class="full-width">
+        <mat-label>Senha</mat-label>
+        <input type="password" matInput placeholder="Password" [(ngModel)]="usuario.senha">
+        <mat-icon matSuffix>vpn_key</mat-icon>
+      </mat-form-field>
+      <mat-form-field class="full-width">
+        <mat-label>Confirmar senha</mat-label>
+        <input type="password" matInput placeholder="Password" [(ngModel)]="senhaconf">
+        <mat-icon matSuffix>vpn_key</mat-icon>
+      </mat-form-field>
+      <button mat-raised-button color="primary" (click)="createUsuario()">Cadastrar</button>
+      <button mat-raised-button (click)="cancel()">Cancelar</button>
+
+    </mat-card-content>
+
+  </mat-card>
+</div>
