@@ -1,0 +1,29 @@
+<mat-card>
+    <mat-card-title>Cadastrar Livro</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome do Livro" [(ngModel)]="book.nome" name="nome">
+        </mat-form-field> 
+        <mat-form-field>
+            <input matInput placeholder="Autor" [(ngModel)]="book.autor" name="autor">
+        </mat-form-field> 
+        <mat-form-field>
+            <input matInput placeholder="Data de Cadastro" [(ngModel)]="book.datacad" name="datacad">
+        </mat-form-field> 
+        <!--mat-form-field appearance="fill">
+            <mat-label>Data de cadastro</mat-label>
+            <input matInput [matDatepicker]="picker" >
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field-->      
+    </form>
+</mat-card>
+
+
+<button mat-raised-button (click)="createBook()" color='primary'>
+    Salvar
+</button>
+
+<button mat-raised-button (click)="cancel()">
+    Cancelar
+</button>

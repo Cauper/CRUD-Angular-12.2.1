@@ -1,0 +1,167 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "nome": "Dom Casmurro",
+      "autor": "Machado de Assis",
+      "datacad": "14/08/2021",
+      "idinclusao": 1
+    },
+    {
+      "id": 2,
+      "nome": "Capitães de Areia",
+      "autor": "Jorge Amado",
+      "datacad": "14/08/2021",
+      "idinclusao": 2
+    },
+    {
+      "id": 3,
+      "nome": "Auto da Compadecida",
+      "autor": "Ariano Suassuna",
+      "datacad": "14/08/2021",
+      "idinclusao": 2
+    },
+    {
+      "id": 4,
+      "nome": "O Sorriso do Lagarto",
+      "autor": "João Ubaldo Ribeiro",
+      "datacad": "14/08/2021",
+      "idinclusao": 3
+    },
+    {
+      "nome": "Como aumentar sua rede social, gastando pouco",
+      "autor": "Kariny Moura",
+      "datacad": "22/07/2021",
+      "idinclusao": 6,
+      "id": 6
+    },
+    {
+      "nome": "Onde encontrar o motivo de continuar",
+      "autor": "Max Willian Paul",
+      "datacad": "26/07/2021",
+      "idinclusao": 1,
+      "id": 8
+    },
+    {
+      "nome": "O Tempo e o Vento",
+      "autor": "Érico Veríssimo",
+      "datacad": "10/08/2021",
+      "idinclusao": 2,
+      "id": 9
+    },
+    {
+      "nome": "Memórias da Kariny antes da puberdade",
+      "autor": "Kariny Moura",
+      "datacad": "20/01/2021",
+      "idinclusao": 6,
+      "id": 10
+    },
+    {
+      "nome": "Onde foi para o dinheiro",
+      "autor": "Felipe Lalau",
+      "datacad": "21/05/2021",
+      "idinclusao": 1,
+      "id": 11
+    },
+    {
+      "nome": "O Cortiço",
+      "autor": "Aluísio Azevedo",
+      "datacad": "01/08/2021",
+      "idinclusao": 6,
+      "id": 12
+    },
+    {
+      "nome": "Um livro cadastrado pelo João",
+      "autor": "Autor desconhecido",
+      "datacad": "28/07/2021",
+      "idinclusao": 2,
+      "id": 14
+    },
+    {
+      "nome": "Um livro bom para se ler 2",
+      "autor": "Outro desconhecido",
+      "datacad": "24/07/2021",
+      "idinclusao": 5,
+      "id": 15
+    },
+    {
+      "nome": "Meu pé de laranja lima",
+      "autor": "José Mauro de Vasconcelos",
+      "datacad": "10/08/2021",
+      "idinclusao": 7,
+      "id": 16
+    },
+    {
+      "nome": "Uma terra prometida",
+      "autor": "Barack Obama",
+      "datacad": "15/07/2021",
+      "idinclusao": 7,
+      "id": 17
+    },
+    {
+      "nome": "Como eu sou super Linda",
+      "autor": "Kariny Moura",
+      "datacad": "10/08/2021",
+      "idinclusao": 6,
+      "id": 18
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "usuario": "admin",
+      "nome": "Administrador do Sistema",
+      "senha": "admin",
+      "perfil": "admin"
+    },
+    {
+      "usuario": "joao",
+      "nome": "Joao das Couves",
+      "senha": "123456",
+      "perfil": "client",
+      "id": 2
+    },
+    {
+      "usuario": "pedro",
+      "nome": "Pedro Malasartes",
+      "senha": "1234",
+      "perfil": "client",
+      "id": 3
+    },
+    {
+      "usuario": "jose",
+      "nome": "José da Silva",
+      "senha": "12",
+      "perfil": "client",
+      "id": 4
+    },
+    {
+      "usuario": "maria",
+      "nome": "Maria das Dores",
+      "senha": "1234",
+      "perfil": "client",
+      "id": 5
+    },
+    {
+      "usuario": "kariny",
+      "nome": "Kariny Moura",
+      "senha": "1212",
+      "perfil": "client",
+      "id": 6
+    },
+    {
+      "usuario": "roberto",
+      "nome": "Roberto que não é o Jefferson",
+      "senha": "1111",
+      "perfil": "client",
+      "id": 7
+    },
+    {
+      "usuario": "maisum",
+      "nome": "Não sei o nome correto",
+      "senha": "11",
+      "perfil": "client",
+      "id": 8
+    }
+  ]
+}
